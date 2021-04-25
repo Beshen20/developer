@@ -1,0 +1,61 @@
+.projects {
+    background-color: #F6F6F8;
+
+    h2 {
+        padding-top: 100px;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+        color: #000;
+    }
+
+    p {
+        max-width: 730px;
+        padding-top: 50px;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999;
+        margin: 0 auto;
+    }
+
+    &-wrap {
+        padding-top: 70px;
+        padding-bottom: 110px;
+
+        button {
+            display: block;
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 200px;
+            height: 45px;
+            background-color: #4985FF;
+            box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            border: none;
+            color: #FFF;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #4281ff;
+
+            }
+
+            &:active {
+                border: 2px solid #4985FF;
+                background-color: #fff;
+                color: #000;
+            }
+        }
+
+        &__img {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+    }
+}

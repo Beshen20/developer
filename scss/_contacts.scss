@@ -1,0 +1,82 @@
+.contacts {
+    min-height: 413px;
+    background-color: #F6F6F8;
+
+    span {
+        padding-top: 30px;
+        display: block;
+        font-size: 13px;
+        color: #999999;
+        text-align: center;
+    }
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+        min-height: 268px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    &-info {
+        width: 255px;
+        height: 156px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 18px;
+            color: #000;
+            padding-bottom: 35px;
+        }
+
+        a {
+            position: relative;
+            display: block;
+            font-size: 14px;
+            color: #999999;
+            padding-bottom: 30px;
+            padding-left: 30px;
+        }
+
+        address {
+            position: relative;
+            font-size: 14px;
+            color: #999999;
+            padding-left: 30px;
+
+            &::after {
+                content: url(../icons/map.svg);
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+
+    &-mail {
+        &::after {
+            content: url(../icons/mail.svg);
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &-tel {
+        &::after {
+            content: url(../icons/tel.svg);
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &-link {
+        @include contacts;
+    }
+
+    &-project {
+        @include contacts;
+    }
+
+    &-social {
+        @include contacts;
+    }
+}

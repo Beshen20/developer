@@ -1,0 +1,87 @@
+.about {
+    min-height: 750px;
+    background-color: #F6F6F8;
+    padding-top: 100px;
+
+    &-wrap {
+        height: 490px;
+        border-bottom: 1px solid #E0E0E0;
+        display: flex;
+        justify-content: space-between;
+
+        &__info {
+            width: 489px;
+            height: 295px;
+
+            h2 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                color: #323232;
+            }
+
+            p {
+                padding-top: 40px;
+                padding-bottom: 30px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                color: #999999;
+            }
+
+            a {
+                padding-top: 30px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                text-decoration: underline;
+                color: #4985FF;
+            }
+        }
+
+        &__img {
+            width: 520px;
+            height: 420px;
+        }
+    }
+
+    &-item {
+        max-width: 920px;
+        min-height: 67px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 70px auto;
+
+        &__wrap {
+            width: 104px;
+            height: 67px;
+
+            .about-info {
+                display: flex;
+                padding-bottom: 17px;
+
+                p {
+                    padding-left: 20px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 36px;
+                    color: #000;
+                }
+            }
+
+            p {
+
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                color: #999999;
+            }
+        }
+    }
+}
