@@ -1031,8 +1031,11 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .header-nav nav ul li .a-color {
+  .header-nav nav ul li a {
     color: #fff;
+  }
+  .header-fixed nav ul li:hover {
+    border-bottom: 2px solid #fff;
   }
 }
 
